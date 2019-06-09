@@ -6,14 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog`,
-        path: `${__dirname}/blog`,
-      },
-    },
-  ]
-
+  plugins: [`gatsby-plugin-netlify-cms`],
+  
 }
