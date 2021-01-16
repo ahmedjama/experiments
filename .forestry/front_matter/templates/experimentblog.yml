@@ -1,0 +1,13 @@
+---
+label: experimentblog
+hide_body: false
+fields:
+- name: test
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: test
