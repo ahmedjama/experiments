@@ -1,2 +1,0 @@
-[apic]
-apicsandbox ansible_host=sandboxapicdc.cisco.com ansible_user=admin ansible_password=ciscopsdt
