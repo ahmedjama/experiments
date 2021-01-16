@@ -1,0 +1,16 @@
+
+
+
+  - name: Delete vnet 2 peering
+    azure_rm_virtualnetworkpeering:
+      resource_group: "{{ resource_group }}"
+      name: "{{ peering_name }}"
+      virtual_network: "{{ vnet_name1 }}"
+      state: absent
+
+  - name: Delete vnet 2 peering
+    azure_rm_virtualnetworkpeering:
+      resource_group: "{{ resource_group }}"
+      name: "{{ peering_name }}"
+      virtual_network: "{{ vnet_name2 }}"
+      state: absent

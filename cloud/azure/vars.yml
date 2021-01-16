@@ -1,0 +1,9 @@
+
+
+resource_group: "create_and_configure_virtual_network_peering.6171567293.date.20190907162351302"
+resource_group_secondary: "create_and_configure_virtual_network_peering.6171567293.date.20190907162351302"
+vnet_resouce_id_1: "/subscriptions/28a6b684-8a09-4a70-abd5-dcddeb9abd37/resourceGroups/create_and_configure_virtual_network_peering.6171567293.date.20190907162351302/providers/Microsoft.Network/virtualNetworks/vnet1"
+vnet_resouce_id_2: "/subscriptions/28a6b684-8a09-4a70-abd5-dcddeb9abd37/resourceGroups/create_and_configure_virtual_network_peering.6171567293.date.20190907162351302/providers/Microsoft.Network/virtualNetworks/vnet2"
+peering_name: "vnet1-vnet2-peering"
+location: southcentralus
+state: "present"
